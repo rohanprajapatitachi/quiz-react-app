@@ -1,7 +1,6 @@
-
 const Quiz = () => (
   <div>
-  <h1> Quiz </h1>  
+  <h1> Hello Quiz App  </h1>  
   </div>
 );
 
