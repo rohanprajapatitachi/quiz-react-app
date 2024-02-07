@@ -1,10 +1,11 @@
-import Quiz from './components/Quiz'
+import Quiz from './components/Quiz';
+import { jsQuizz } from './constants';
 
 function App() {
 
   return (
     <>
-      <Quiz/>
+      < Quiz questions={jsQuizz.questions} />
     </>
   )
 }

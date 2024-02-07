@@ -1,7 +1,18 @@
-const Quiz = () => (
-  <div>
-  <h1> Hello Quiz App  </h1>  
-  </div>
-);
+import { useState } from "react";
+
+const Quiz = ({ questions }) => {
+  const[currentQuestion, setCurrentQuestion] = useState(0);
+  const { question, choices, correctAnswer } = questions[currentQuestion];
+
+
+  return <div className="quiz-container">
+    <>
+      <span className="active-question-no">{currentQuestion +1}</span>
+      <span className="total-question">{currentQuestion +1}</span>
+
+    </>
+    </div>;
+    
+};
 
 export default Quiz;
