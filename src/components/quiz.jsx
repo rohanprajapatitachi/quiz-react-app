@@ -1,6 +1,8 @@
 
 const Quiz = () => (
-  <div>Quiz</div>
+  <div>
+  <h1> Quiz </h1>  
+  </div>
 );
 
 export default Quiz;
