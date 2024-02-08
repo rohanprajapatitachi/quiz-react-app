@@ -5,10 +5,11 @@ const Quiz = ({ questions }) => {
   const { question, choices, correctAnswer } = questions[currentQuestion];
 
 
+
   return <div className="quiz-container">
     <>
       <span className="active-question-no">{currentQuestion +1}</span>
-      <span className="total-question">{currentQuestion +1}</span>
+      <span className="total-question">/{questions.length}</span>
 
     </>
     </div>;
