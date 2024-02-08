@@ -1,4 +1,4 @@
-import Quiz from './components/Quiz';
+import Quiz from './components/quiz';
 import { jsQuizz } from './constants';
 
 function App() {
