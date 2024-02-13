@@ -79,4 +79,5 @@ const Quiz = ({ questions }) => {
   );
 };
 
+
 export default Quiz;
